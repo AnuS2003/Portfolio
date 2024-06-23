@@ -1,6 +1,9 @@
-import project1 from "../assets/projects/project1.png";
-import project2 from "../assets/projects/project2.png";
-import project3 from "../assets/projects/project3.png";
+import project1 from '../assets/projects/project1.png';
+import project2 from '../assets/projects/project2.png';
+import project3 from '../assets/projects/project3.png';
+import project4 from '../assets/projects/project4.png';
+
+
 
 export const PROJECTS = [
   {
@@ -26,6 +29,14 @@ export const PROJECTS = [
       "A website for a fitness gym that provides information about the gym, services, trainers, and contact details.",
     technologies: ["HTML","CSS","JavaScript"],
     link: "https://github.com/AnuS2003/Fitness_Gym",
+  },
+  {
+    title: "Portfolio",
+    image: project4,
+    description:
+      "A portfolio website that showcases my projects, skills, and contact details.",
+    technologies: ["React","Tailwind CSS","CSS","JavaScript","Framer Motion"],
+    link:"https://github.com/AnuS2003/Portfolio",
   },
 
 ];
