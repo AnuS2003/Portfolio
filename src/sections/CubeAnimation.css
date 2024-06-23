@@ -1,0 +1,47 @@
+.stage-cube-cont {
+    perspective: 800px;
+  }
+  
+  .cubespinner {
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    transform-origin: 50px 50px 0;
+    animation: spincube 12s infinite ease-in-out;
+  }
+  
+  .cubespinner div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #aaadae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .face1 { transform: rotateY(0deg) translateZ(50px); }
+  .face2 { transform: rotateY(90deg) translateZ(50px); }
+  .face3 { transform: rotateY(180deg) translateZ(50px); }
+  .face4 { transform: rotateY(-90deg) translateZ(50px); }
+  .face5 { transform: rotateX(90deg) translateZ(50px); }
+  .face6 { transform: rotateX(-90deg) translateZ(50px); }
+  
+  @keyframes spincube {
+    /* 0%,{ transform: rotateY(0deg) rotateX(0deg); }
+    33.33% { transform: rotateY(90deg) rotateX(0deg); }
+    50%{ transform: rotateY(180deg) rotateX(0deg); }
+    66.89%{ transform: rotateY(270deg) rotateX(0deg); }
+    
+    83%{ transform: rotateX(90deg) rotateY(0deg); }
+    100%{ transform: rotateX(-90deg) rotateY(0deg); } */
+
+    0%, 16.67% { transform: rotateY(0deg) rotateX(0deg); }
+    33.33%, 50% { transform: rotateY(90deg) rotateX(0deg); }
+    66.67%, 83.33% { transform: rotateY(180deg) rotateX(0deg); }
+    100% { transform: rotateY(270deg) rotateX(0deg); }
+    25%, 41.67% { transform: rotateX(90deg) rotateY(0deg); }
+    58.33%, 75% { transform: rotateX(-90deg) rotateY(0deg); }
+  }
+  
