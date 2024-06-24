@@ -1,8 +1,15 @@
-# React + Vite
+## Portfolio
+A portfolio website that showcases my projects, skills, and contact details. This web application was built using react.js , tailwind.css , css, javascript, framer-motion.You can check it out [here!](https://portfolio-nu-one-64.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+<!-- start:code block -->
+Clone this repository`git clone https://github.com/AnuS2003/Portfolio.git`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Navigate to the project directory: `cd portfolio`
+
+Install dependencies: `npm install`
+
+Start the development server: `npm run dev`
+
+Open your browser and visit [http://localhost:3000](http://localhost:3000)

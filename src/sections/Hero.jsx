@@ -25,7 +25,7 @@ const Hero = () => {
 
   useEffect(() => {
     if (!inView) {
-      setAnimated(false); // Reset animation state when user leaves the page
+      setAnimated(false);
     }
   }, [inView]);
 
@@ -59,7 +59,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className='mb-20 flex justify-center items-center lg:w-1/3 lg:pl-5'>
+        <div className='mb-20 flex justify-center items-center lg:w-1/3 lg:p-5'>
           <motion.img
             initial={{ x: 50, opacity: 0 }}
             animate={animated ? { x: 0, opacity: 1 } : {}}
