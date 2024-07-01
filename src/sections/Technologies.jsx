@@ -50,14 +50,14 @@ const Technologies = () => {
         >
           <DiMysql className="text-7xl text-cyan-500" />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           variants={iconVariants}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
-        </motion.div>
+        </motion.div> */}
         <motion.div
           variants={iconVariants}
           initial="initial"

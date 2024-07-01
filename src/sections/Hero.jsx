@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-import CV from '../assets/Anupama S.pdf';
+import CV from '../assets/ANUPAMA S.pdf';
 import icon from '../assets/profile.svg';
 import { motion } from 'framer-motion';
 
