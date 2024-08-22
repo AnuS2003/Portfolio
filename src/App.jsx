@@ -3,7 +3,7 @@ import Hero from "../src/sections/Hero"
 import About from "../src/sections/About"
 import Technologies from "../src/sections/Technologies"
 import Experiences from "./sections/Experiences"
-import Project from "./sections/Project"
+import Project from "../src/sections/Project"
 import Contacts from "./sections/Contacts"
 
 
