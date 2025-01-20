@@ -1,4 +1,4 @@
-import { PROJECTS } from "../sections/project";
+import { PROJECTS } from "../sections/projectInfo";
 import { motion } from "framer-motion";
 
 const Project = () => {

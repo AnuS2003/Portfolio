@@ -1,6 +1,6 @@
 import { RiReactjsLine, RiHtml5Line, RiJavaLine } from 'react-icons/ri'
-import { FaPython } from "react-icons/fa"
-import { SiPowerbi, SiCss3 } from "react-icons/si"
+import { FaPython, FaGitAlt } from "react-icons/fa"
+import { SiPowerbi, SiCss3, SiNumpy, SiPandas, SiScikitlearn, SiPytorch, SiTensorflow, SiTableau } from "react-icons/si"
 import { DiMysql } from "react-icons/di"
 import { motion } from 'framer-motion'
 
@@ -26,6 +26,7 @@ const Technologies = () => {
       transition={{duration:1}}
       className="my-20 text-center text-4xl">Technologies</motion.h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
+        {/* Programming Languages */}
         <motion.div
           variants={iconVariants}
           initial="initial"
@@ -50,14 +51,6 @@ const Technologies = () => {
         >
           <DiMysql className="text-7xl text-cyan-500" />
         </motion.div>
-        {/* <motion.div
-          variants={iconVariants}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
-        </motion.div> */}
         <motion.div
           variants={iconVariants}
           initial="initial"
@@ -74,6 +67,56 @@ const Technologies = () => {
         >
           <FaPython className="text-7xl text-yellow-400" />
         </motion.div>
+        {/* Libraries/Frameworks */}
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiNumpy className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPandas className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiScikitlearn className="text-7xl text-orange-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPytorch className="text-7xl text-orange-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTensorflow className="text-7xl text-yellow-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        {/* Data Visualization */}
         <motion.div
           variants={iconVariants}
           initial="initial"
@@ -82,9 +125,26 @@ const Technologies = () => {
         >
           <SiPowerbi className="text-7xl text-yellow-600" />
         </motion.div>
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTableau className="text-7xl text-blue-700" />
+        </motion.div>
+        {/* Version Control */}
+        <motion.div
+          variants={iconVariants}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaGitAlt className="text-7xl text-orange-600" />
+        </motion.div>
       </div>
     </div>
   )
 }
 
-export default Technologies
+export default Technologies;
