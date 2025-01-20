@@ -1,6 +1,6 @@
 import { FaLinkedinIn } from 'react-icons/fa';
-import { CiMail } from "react-icons/ci";
 import { motion } from "framer-motion";
+import { CiMail } from "react-icons/ci";
 
 const fadeVariant = {
   hidden: { opacity: 0, y: 20 },
@@ -47,8 +47,13 @@ const Contacts = () => {
             <a href="https://www.linkedin.com/in/anupamashettigar" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn className="mx-4 text-6xl text-neutral-400 hover:text-purple-400" />
             </a>
-            <a href="mailto:anupamacks589@gmail.com" target="_blank" rel="noopener noreferrer">
-              <CiMail className="mx-4 text-6xl text-neutral-400 hover:text-purple-400" />
+            <a
+              href="mailto:anupamacks589@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-3 hover:text-purple-400"
+            >
+              <CiMail className="text-6xl text-neutral-400 hover:text-purple-400" />
             </a>
           </motion.div>
         </div>
