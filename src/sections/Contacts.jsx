@@ -17,8 +17,7 @@ const Contacts = () => {
           variants={fadeVariant}
           className="my-20 text-center text-4xl"
         >
-          Contact 
-          <span className="text-neutral-500"> Me</span>
+          Contact Me
         </motion.h1>
         <div className="max-w-3xl mx-auto text-center tracking-tighter">
           <motion.p

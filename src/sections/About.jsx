@@ -20,7 +20,7 @@ const About = () => {
   return (
     <div className="border-b border-neutral-600 pb-4 lg:mb-30" ref={ref}>
       <h1 className="my-20 text-center text-4xl">
-        About <span className="text-neutral-500"> Me</span>
+        About Me
       </h1>
       <div className="flex flex-wrap">
         <motion.div

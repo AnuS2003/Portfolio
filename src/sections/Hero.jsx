@@ -43,7 +43,7 @@ const Hero = () => {
             initial={animated ? "visible" : "hidden"}
             animate={animated ? "visible" : "hidden"}
             className='px-10 my-2 max-w-xl py-6 font-thin tracking-tighter text-2xl'>
-            I'm a 3rd year undergraduate majoring in Artificial Intelligence and Machine Learning.
+            I am an undergraduate student specializing in Artificial Intelligence and Machine Learning
           </motion.p>
           <div className='flex px-10 w-full'>
             <a href={CV} download>
